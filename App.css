@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 370px;
+  width: 370px;
+  pointer-events: none;
+  position:absolute;
+  top:0px;
+  left: 775px;
+}
+
+.App-header {
+  position:relative;
+  background-color: #0F172A;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.LoginMember {
+  position: relative;
+  font-size: 60px;
+  font-family: 'Myfont', karantina;
+  color: #ffffff;
+  font-family: "Karantina", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 300px;
+}
+
+input {
+  padding: 10px 15px;
+  margin: 15px 0;
+  border-radius: 20px;
+  border: 2px solid #22D3EE;
+  outline: none;
+  height: 50px;
+  width: 450px;
+  font-size: 20px;
+  background-color: #0F172A;
+  color:#ffffff;
+}
+
+.forgot-password {
+  font-size: 20px;
+  color: #22D3EE;
+  font-family: "tinos";
+  margin-left: 350px;
+}
+
+.btnlogin {
+  background-color: #22D3EE;
+  color: #000000;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 20px 0;
+}
+
+.btnlogin:hover {
+  background-color: #1D4ED8;
+  color: #ffffff;
+}
+
+.register {
+  font-size: 20px;
+  color: #ffffff;
+  font-family: "tinos";
+  margin-top: 20px;
+}
+
+.signup {
+  color: #22D3EE;
+  font-size: 20px;
+  font-family: "tinos";
+  margin-left: 10px;
+  cursor: pointer;
+}

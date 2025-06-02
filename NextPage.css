@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #0F172A;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  h1{
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+
+  p{
+    color: #fff;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+
+  button{
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #2563eb; /* Blue-600 */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  button:hover{
+    background-color: #1d4ed8; /* Blue-700 */
+  }
+
+.App{
+    background-color:#0F172A;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: rgb(168, 0, 0);
+  }
+  
